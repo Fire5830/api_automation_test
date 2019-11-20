@@ -24,7 +24,7 @@
 ### 2.下载代码到本地并解压<br>
 ### 3.cmd到根目录下安装相关依赖包<br>
 ```bash
-pip install -r requirements.txt<br>
+pip install -r requirements.txt
 pip install https://github.com/darklow/django-suit/tarball/v2
 ```
 ### 4.安装mysql数据库，配置数据库连接，进入api_automation_test/settings.py<br>
@@ -55,19 +55,21 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 ### 8.安装VUE环境，下载node.js并配置环境，下载npm包管理器<br>
-### 9.cmd进入frontend目录下，运行npm install安装相关依赖包<br>
+### 9.cmd进入frontend目录下，运行npm install安装相关依赖包；直接nmp install可能会报错，建议使用淘宝镜像，执行 npm install -g cnpm <br>
 ### 10.打包<br>
 ```bash
 npm run build
 ```
+###### 替换为 cnmp run build <br>
 ### 11.运行启动django服务<br>
 ```bash
 python manage.py runserver 0.0.0.0:8000
 ```
-### 12.现在就可以访问 http://127.0.0.1:8000/login 进行登录， http://127.0.0.1:8000/admin 为后台管理平台<br>
-## 微信打赏：<br>
-![微信打赏](https://github.com/githublitao/api_automation_test/blob/master/img/%E6%94%B6%E6%AC%BE%E7%A0%81.png)<br>
-<br>
+### 12.现在就可以访问 http://127.0.0.1:8000/login（更改为 http://127.0.0.1:8000/ ） 进行登录， http://127.0.0.1:8000/admin 为后台管理平台<br>
+
+##### 特别说明 ：若要在本地运行，需先将 \frontend\src\api\api.js 中const test 本地地址去掉注释，远端地址加上注释 <br>
+
+
 ## 系统图解：<br>
 ![系统图](https://github.com/githublitao/api_automation_test/blob/master/img/%E7%B3%BB%E7%BB%9F%E5%9B%BE%E8%A7%A3.png)<br>
 <br>
