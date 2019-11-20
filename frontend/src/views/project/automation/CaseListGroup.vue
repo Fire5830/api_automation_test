@@ -22,7 +22,7 @@
                 <el-form-item label="名称" prop="caseName">
                     <el-input v-model.trim="editForm.caseName" auto-complete="off"></el-input>
                 </el-form-item>
-                <el-form-item label="接口分组:" label-width="83px" prop="automationGroupLevelFirst">
+                <el-form-item label="用例分组:" label-width="83px" prop="automationGroupLevelFirst">
                     <el-select v-model="editForm.automationGroupLevelFirst" placeholder="分组">
                         <el-option v-for="(item,index) in group" :key="index+''" :label="item.name" :value="item.id"></el-option>
                     </el-select>
@@ -43,7 +43,7 @@
                 <el-form-item label="名称" prop="caseName">
                     <el-input v-model.trim="addForm.caseName" auto-complete="off"></el-input>
                 </el-form-item>
-                <el-form-item label="接口分组:" label-width="83px" prop="firstGroup">
+                <el-form-item label="用例分组:" label-width="83px" prop="firstGroup">
                     <el-select v-model="addForm.firstGroup" placeholder="分组">
                         <el-option v-for="(item,index) in group" :key="index+''" :label="item.name" :value="item.id"></el-option>
                     </el-select>
