@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bff3874-0f80-4ef6-957e-fc1f35d5523e" name="Default" comment="上传前端打包文件">
-      <change beforePath="$PROJECT_DIR$/.idea/api_automation_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_automation_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1bff3874-0f80-4ef6-957e-fc1f35d5523e" name="Default" comment="修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_automation_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_automation_test/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test/common/confighttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test/common/confighttp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/28.8dcdd75510ebcc2a65c4.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/static/js/28.8dcdd75510ebcc2a65c4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/static/js/vendor.c1fbfcab4d094a1cb2c4.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/static/js/vendor.c1fbfcab4d094a1cb2c4.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,62 +36,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_automation_test/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4342">
-              <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
-              <caret line="167" column="35" lean-forward="true" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/dev.env.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3000">
-              <caret line="301" column="13" selection-start-line="301" selection-start-column="11" selection-end-line="301" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiListGroup.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue">
+        <entry file="file://$PROJECT_DIR$/api_test/common/confighttp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+            <state relative-caret-position="-96">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/index.js">
+        <entry file="file://$PROJECT_DIR$/api_automation_test/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="63" column="63" lean-forward="true" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+            <state relative-caret-position="128">
+              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+              <folding>
+                <element signature="e#643#675#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
+        <entry file="file://$PROJECT_DIR$/api_test/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1274">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="127">
+              <caret line="58" column="56" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,17 +75,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_test/api/automationCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="273" column="6" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
+            <state relative-caret-position="1477">
+              <caret line="1064" selection-start-line="1064" selection-end-line="1064" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseApiList.vue">
+        <entry file="file://$PROJECT_DIR$/api_test/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="521" column="22" lean-forward="true" selection-start-line="521" selection-start-column="22" selection-end-line="521" selection-end-column="22" />
+            <state relative-caret-position="-25">
+              <caret line="386" column="50" selection-start-line="386" selection-start-column="46" selection-end-line="386" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_test/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="514" column="19" selection-start-line="514" selection-start-column="13" selection-end-line="514" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -119,16 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ex</find>
-      <find>exc</find>
-      <find>instance</find>
-      <find>excl</find>
-      <find>instance=</find>
-      <find>group</find>
-      <find>doc</find>
-      <find>ApiHeadSerializer</find>
-      <find>validate</find>
-      <find>for</find>
       <find>handleSubmit2</find>
       <find>forech</find>
       <find>name</find>
@@ -147,8 +127,18 @@
       <find>watch</find>
       <find>isValidIP</find>
       <find>120.79.232.23</find>
-      <find>接口</find>
       <find>接口分组</find>
+      <find>接口</find>
+      <find>TextField</find>
+      <find>Model</find>
+      <find>AutomationParameterRaw</find>
+      <find>start_test</find>
+      <find>_id</find>
+      <find>StartTest</find>
+      <find>AutomationParameterRawSerializer</find>
+      <find>AutomationTestResult</find>
+      <find>start</find>
+      <find>star</find>
     </findStrings>
     <replaceStrings>
       <replace>code=&quot;999996&quot;, msg=&quot;项目不存在！&quot;</replace>
@@ -189,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/src/views/project/automation/CaseApiList.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/common/Login.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/automation/AutomationTest.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/ProjectMember.vue" />
@@ -200,7 +189,6 @@
         <option value="$PROJECT_DIR$/frontend/src/views/Projectlist.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/API.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/ApiInfo.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/project/automation/CaseListGroup.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/automation/TestReport.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/ProjectReport.vue" />
         <option value="$PROJECT_DIR$/api_test/common/common.py" />
@@ -220,7 +208,6 @@
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/updateApi/TestApi.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/api/FestTest.vue" />
         <option value="$PROJECT_DIR$/api_test/api/automationReport.py" />
-        <option value="$PROJECT_DIR$/api_test/api/dynamic.py" />
         <option value="$PROJECT_DIR$/api_test/api/global_parameter.py" />
         <option value="$PROJECT_DIR$/api_test/api/member.py" />
         <option value="$PROJECT_DIR$/api_test/api/projectTitle.py" />
@@ -240,6 +227,9 @@
         <option value="$PROJECT_DIR$/api_automation_test/settings.py" />
         <option value="$PROJECT_DIR$/frontend/src/api/api.js" />
         <option value="$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/views/project/automation/CaseListGroup.vue" />
+        <option value="$PROJECT_DIR$/api_test/api/dynamic.py" />
+        <option value="$PROJECT_DIR$/api_test/common/confighttp.py" />
       </list>
     </option>
   </component>
@@ -272,77 +262,12 @@
             <path>
               <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="updateApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_automation_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_automation_test" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -659,7 +584,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561967013449</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="修改const test 地址，改为本地&#10;修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组">
+      <created>1574239522360</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574239522360</updated>
+    </task>
+    <task id="LOCAL-00025" summary="修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组">
+      <created>1574240770769</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1574240770769</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -678,20 +617,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" visible="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6060768" weight="0.319774" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.55431545" visible="true" weight="0.2618658" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3279396" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.62100214" visible="true" weight="0.31260228" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37899786" side_tool="true" weight="0.5026969" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.62053573" weight="0.41734862" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44568452" side_tool="true" weight="0.86415714" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32921347" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49733475" weight="0.3269663" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -748,41 +687,27 @@
     <MESSAGE value="1.修改数据库地址" />
     <MESSAGE value="修复修改接口后，其他接口信息丢失的bug" />
     <MESSAGE value="上传前端打包文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传前端打包文件" />
+    <MESSAGE value="修改const test 地址，改为本地&#10;修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组" />
+    <MESSAGE value="修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改bug:自动化测试界面，新增、修改用例分组弹出中，接口分组改为用例分组" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="request.DATA" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>request.DATA</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/build/check-versions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-981" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/vue-loader.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="64" selection-start-line="64" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/build/build.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/vue-router/types/router.d.ts" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts" />
     <entry file="file://$PROJECT_DIR$/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -798,16 +723,6 @@
           <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,23 +752,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/project/projectTitle/ProjectTitle.vue">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="255" column="6" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/common/404.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -978,8 +876,8 @@
     <entry file="file://$PROJECT_DIR$/api_automation_test/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4342">
-          <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
-          <caret line="167" column="35" lean-forward="true" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
+          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+          <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -992,22 +890,12 @@
     <entry file="file://$PROJECT_DIR$/frontend/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="63" column="63" lean-forward="true" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config/prod.env.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_automation_test/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding>
-            <element signature="e#643#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/routes.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1019,24 +907,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_test/api/automationCase.py">
+    <entry file="file://D:/Program Files (x86)/python3/Lib/site-packages/django/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="273" column="6" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
+        <state relative-caret-position="346">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/python3/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="864" selection-start-line="864" selection-end-line="864" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseApiList.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230">
-          <caret line="521" column="22" lean-forward="true" selection-start-line="521" selection-start-column="22" selection-end-line="521" selection-end-column="22" />
+          <caret line="521" column="22" selection-start-line="521" selection-start-column="22" selection-end-line="521" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue">
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseListGroup.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3000">
-          <caret line="301" column="13" selection-start-line="301" selection-start-column="11" selection-end-line="301" selection-end-column="13" />
+        <state relative-caret-position="-348">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1047,10 +949,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/automation/CaseList.vue">
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/project/api/ApiList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        <state relative-caret-position="-3000">
+          <caret line="301" column="13" selection-start-line="301" selection-start-column="11" selection-end-line="301" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/automationReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/dynamic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_automation_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="386" column="50" selection-start-line="386" selection-start-column="46" selection-end-line="386" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="514" column="19" selection-start-line="514" selection-start-column="13" selection-end-line="514" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/api/automationCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1477">
+          <caret line="1064" selection-start-line="1064" selection-end-line="1064" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_test/common/confighttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

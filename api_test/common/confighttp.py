@@ -116,9 +116,10 @@ def test_api(host_id, case_id, project_id, _id):
         parameter = AutomationParameterRawSerializer(AutomationParameterRaw.objects.filter(automationCaseApi=_id),
                                                      many=True).data
         if len(parameter):
-            if len(parameter[0]["data"]):
+            if len(parameter[0]['data']):
                 try:
-                    parameter = eval(parameter[0]["data"])
+                    # parameter = eval(parameter[0]['data'])
+                    parameter = parameter[0]['data']
                 except Exception as e:
                     logging.exception(e)
                     record_results(_id=_id, url=url, request_type=request_type, header=header, parameter=parameter,
