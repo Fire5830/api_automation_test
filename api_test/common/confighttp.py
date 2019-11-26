@@ -116,6 +116,7 @@ def test_api(host_id, case_id, project_id, _id):
         parameter = AutomationParameterRawSerializer(AutomationParameterRaw.objects.filter(automationCaseApi=_id),
                                                      many=True).data
         if len(parameter):
+            print(parameter)
             if len(parameter[0]['data']):
                 try:
                     # parameter = eval(parameter[0]['data'])

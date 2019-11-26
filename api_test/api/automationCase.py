@@ -761,6 +761,7 @@ class AddNewApi(APIView):
                     try:
                         response = eval(data["responseData"].replace("true", "True").replace("false", "False").replace("null", "None"))
                         api = "<response[JSON][%s]>" % api_id
+                        print(api)
                         create_json(api_ids, api, response)
                     except KeyError:
                         return JsonResponse(code="999998", msg="失败！")
@@ -934,7 +935,7 @@ class UpdateApi(APIView):
                 if data.get("examineType") == "json":
                     try:
                         response = eval(data["responseData"].replace("true", "True").replace("false", "False").replace("null", "None"))
-                        api = "<response[JSON][%s]>" % api_id
+                        api = "<response[JSON][%s]>" % api_id.id
                         create_json(api_id, api, response)
                     except KeyError:
                         return JsonResponse(code="999998", msg="失败！")
