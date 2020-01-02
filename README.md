@@ -55,7 +55,8 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 ### 8.安装VUE环境，下载node.js并配置环境，下载npm包管理器<br>
-### 9.cmd进入frontend目录下，运行npm install安装相关依赖包；直接nmp install可能会报错，建议使用淘宝镜像，执行 npm install -g cnpm <br>
+### 9.cmd进入frontend目录下，运行npm install安装相关依赖包；直接nmp install可能会报错，建议使用淘宝镜像，执行 
+### npm install -g cnpm --registry=https://registry.npm.taobao.org  ;再执行cnpm install node-sass --save  <br>
 ### 10.打包<br>
 ```bash
 npm run build
